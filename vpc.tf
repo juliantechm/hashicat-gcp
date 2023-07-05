@@ -2,7 +2,7 @@ module "network" {
   source  = "terraform-google-modules/network/google"
   version = "3.4.0"
 
-  network_name = "juli-network"
+  network_name = "juli-network2"
   project_id = var.project
 
   subnets = [
